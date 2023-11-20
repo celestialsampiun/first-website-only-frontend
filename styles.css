@@ -1,0 +1,184 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+#title {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1)
+  );
+  padding: 3vh 15vw;
+}
+.container-fluid {
+  padding: 3vh 15vw;
+}
+h1 {
+  font-family: "futura", sans-serif;
+
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+p {
+  color: #8f8f8f;
+}
+/* navbar section */
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.nav-item {
+  padding-right: 0%;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+.download-button {
+  padding: 5% 3% 5% 0;
+  margin-top: 1%;
+}
+.phone {
+  width: 55%;
+  transform: rotate(25deg);
+  margin-bottom: 10%;
+}
+@media (max-width: 900px) {
+  #title h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  .phone {
+    width: 45%;
+    position: static;
+    transform: rotate(0deg);
+    margin-top: 12%;
+    margin-bottom: 10%;
+    margin-left: 27%;
+  }
+}
+.icon {
+  justify-content: center;
+}
+#features {
+  padding: 7% 15%;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: #ff4c68;
+}
+.icon:hover {
+  color: #570310;
+}
+
+/* testimonials */
+
+#testimonials {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1)
+  );
+  text-align: center;
+  padding-bottom: 0%;
+}
+.testimonial-text {
+  color: #f3eeee;
+  padding: 5% 0;
+  font-size: 1.5rem;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-image {
+  border-radius: 100%;
+  width: 8%;
+  margin: 20px;
+  text-align: center;
+}
+.dog {
+  justify-content: center;
+}
+.em {
+  color: beige;
+  padding-top: 3%;
+}
+
+/* company */
+
+#press {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1)
+  );
+  padding-top: 1%;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+.press-image {
+  width: 15%;
+  padding: 7px 15px;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 4% 8%;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 2% 3%;
+}
+
+/* <!-- Call to Action --> */
+
+#cta {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1)
+  );
+  text-align: center;
+  padding: 15% 10%;
+}
+.btn {
+  padding-top: 5%;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+.description {
+  padding-top: 6%;
+}
+/* .logo {
+  text-align: center;
+  padding-bottom: 2%;
+} */
